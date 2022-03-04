@@ -162,10 +162,10 @@ class HomePage extends StatelessWidget {
                         firstDay: DateTime.utc(2010, 10, 20),
                         lastDay: DateTime.utc(2040, 10, 20),
                         focusedDay: DateTime.now(),
-                       // headerVisible: true,
-                        //daysOfWeekVisible: true,
-                      //  sixWeekMonthsEnforced: true,
-                        //  shouldFillViewport: false,
+                       headerVisible: true,
+                        daysOfWeekVisible: true,
+                       sixWeekMonthsEnforced: true,
+                         shouldFillViewport: false,
                         headerStyle: HeaderStyle(
                             titleTextStyle: TextStyle(
                                 fontSize: 20,
